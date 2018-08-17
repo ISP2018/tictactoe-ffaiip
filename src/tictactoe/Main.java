@@ -12,6 +12,7 @@ import javafx.stage.Stage;
 
 /**
  * Launch the JavaFX application.
+ * @author Kavinthip Pattanaphaophan
  *
  */
 public class Main extends Application {
@@ -34,7 +35,6 @@ public class Main extends Application {
 		try {
 			FXMLLoader loader = new FXMLLoader(formURL);
 			Parent parent = loader.load();
-			GameController controller = loader.getController();
 			primaryStage.setTitle("Tic-Tac-Toe");
 			Scene scene = new Scene(parent);
 	        primaryStage.setScene(scene);
