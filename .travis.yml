@@ -7,7 +7,7 @@ git:
 jdk:
   - oraclejdk8
   - oraclejdk9
-  - openjdk8
+
 
 
 # Default build script is "ant test".
