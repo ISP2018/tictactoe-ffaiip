@@ -1,0 +1,17 @@
+language: java
+install: ant deps  
+
+git:
+  depth: 1
+
+jdk:
+  - oraclejdk8
+  - oraclejdk9
+  - openjdk8
+
+
+# Default build script is "ant test".
+# You can run many commands, one per line prefixed with "  - ".
+
+script:
+  - ant test
